@@ -1,0 +1,107 @@
+* {
+  margin : 0;
+  padding : 0;
+}
+body {
+    background-color: #fbfbfb;
+}
+header {
+    margin-top : 15px;
+    width : 100%;
+}
+header h2{
+  font-size: 30px;
+  letter-spacing: 2.0px;
+  color : #3f3f3f;
+  font-weight: bold;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+/*메인*/
+#sub {
+  text-align : center;
+  font-size : 13px;
+  margin-top : 0px;
+  margin-right : auto;
+  margin-bottom : 3%;
+  margin-left : auto;
+  color : #FF7843;
+}
+#sub > a:hover {
+  color : #ffffff;
+}
+#sub > a:link {
+  color : #FF7843;
+}
+#sub > a:visited {
+  color : #FF7843;
+}
+#img {
+  text-align : center;
+}
+#img a:link {
+  color : #3f3f3f;
+}
+#img a:visited {
+  color : #3f3f3f;
+}
+#img a:hover {
+  color : gray;
+}
+
+
+p {
+  color : #3f3f3f;
+}
+#section1 {
+  width: 400px;
+  float : left;
+}
+#section1 p {
+  padding-left: 100px;
+  font-size : 15px;
+}
+#section2 {
+  margin-top : 170px;
+  margin-right : 280px;
+  float: right;
+  width : 500px;
+}
+#section2 form {
+  font-size : 13px;
+}
+#section2 li {
+  list-style-type: none;
+}
+#section2 input {
+  border : 0;
+  background-color: #fbfbfb;
+  height : 30px;
+  border-bottom : solid 1px #3f3f3f;
+}
+#section2 select {
+  border: 0;
+  background-color: #fbfbfb;
+  height: 30px;
+  border-bottom: solid 1px #3f3f3f;
+}
+#section2 textarea {
+  border: solid 1px #3f3f3f;
+  background-color: #fbfbfb;
+  height : 80px;
+}
+#section2 button {
+  margin-top : 90px;
+  margin-left : 80px;
+  border : solid 1px #FF7843;
+  height : 30px;
+  width : 180px;
+  color : #ffffff;
+  background-color :#FF7843;
+}
+h1 {
+  font-size : 30px;
+  color : #FF7843;
+}

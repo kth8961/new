@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  display: grid;
+  grid-template-areas:
+    "nav header"
+    "nav article"
+    "nav ads"
+    "nav footer";
+  grid-template-rows: 80px 1fr 70px 70px;
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+header,footer, article, nav, div {
+  padding: 5px;
+  }
+  .clear {
+    clear : both;
+  }
+  nav {
+    background-color: #FF7843;
+    position : fixed;
+    width : 250px;
+    height : 100%;
+  }
+  main {
+    float : right;
+    margin-top : 90px;
+    margin-left: 0px;
+    width: 100%;
+    height : auto;
+  }
+#header {
+  grid-area: header;
+  }
+#footer {
+  grid-area: footer;
+  }
+#article {
+  grid-area: article;
+  }
+#nav {
+  grid-area: nav;
+  }
+  a {
+    text-decoration: none;
+  }
+
+article {
+  margin : 0 auto;
+  height : 100%;
+}
+
+  /*메인내비게이션*/
+  #nav_1 {
+    margin-top : 170px;
+    margin-left : 30px;
+  }
+  #nav li {
+    font-size : 15px;
+    padding-bottom :10px;
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+  }
+  #nav img {
+    padding-top : 10px;
+    padding-left: 25px;
+  }
+  nav #nav_1 a:link {
+    color : #ffffff;
+  }
+  nav #nav_1 a:visited {
+    color : #ffffff;
+  }
+  nav #nav_1 a:hover {
+    color : #f2f2f2;
+    font-weight : bold;
+  }
+  nav #search_form input {
+    width : 140px;
+    border : 0;
+    background-color: #FF7843;
+    border-bottom : solid 1px #ffffff;
+    margin-left : 30px;
+  }
+  nav #search_form {
+    position : fixed;
+    bottom: 50px;
+  }
+
+
+    /*푸터 내비게이션~*/
+footer {
+  padding : 25px;
+  color : #3f3f3f;
+  letter-spacing: 0.8px;
+  height : 25px;
+}
